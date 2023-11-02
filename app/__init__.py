@@ -23,6 +23,7 @@ login.login_view = 'login'
 login.login_message = 'You need to be logged in to do that.'
 login.login_message_category = 'danger'
 
+# 
 from app.blueprints.api import api
 app.register_blueprint(api)
 
